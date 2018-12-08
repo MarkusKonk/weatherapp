@@ -1,0 +1,5 @@
+/node_modules
+
+/widgets/config.js
+/widgets/config.js.map
+/widgets/config.ts

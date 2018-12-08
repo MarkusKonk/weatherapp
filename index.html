@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title></title>
+
+    <link rel="stylesheet" href="https://js.arcgis.com/4.9/esri/css/main.css">
+    <script>
+      var locationPath = location.pathname.replace(/\/[^\/]+$/, "");
+      window.dojoConfig = {
+        packages: [
+          {
+            name: "widgets",
+            location: locationPath + "/widgets"
+          }
+        ]
+      };
+      </script>
+    <script src="https://js.arcgis.com/4.9/"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="weatherapp.css">
+  </head>
+  <body class="claro">
+    <div id="map"></div>
+  </body>
+</html>
