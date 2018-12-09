@@ -19,7 +19,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 define(["require", "exports", "esri/core/accessorSupport/decorators", "esri/widgets/Widget", "esri/core/watchUtils", "esri/widgets/support/widget", "esri/geometry/support/webMercatorUtils", "esri/request"], function (require, exports, decorators_1, Widget, watchUtils, widget_1, webMercatorUtils, request) {
     "use strict";
-    console.log(config);
     var CSS = {
         base: "recenter-tool"
     };

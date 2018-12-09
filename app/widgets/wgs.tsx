@@ -8,7 +8,7 @@ import Point = require("esri/geometry/Point");
 import MapView = require("esri/views/MapView");
 import webMercatorUtils = require("esri/geometry/support/webMercatorUtils");
 import request = require("esri/request");
-console.log(config)
+
 type Coordinates = Point | number[] | any;
 
 interface Center {

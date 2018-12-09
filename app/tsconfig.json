@@ -11,7 +11,7 @@
       "suppressImplicitAnyIndexErrors": true
     },
     "include": [
-      "./widgets/*"
+      "widgets/*"
     ],
     "exclude": [
       "node_modules"
